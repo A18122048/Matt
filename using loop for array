@@ -1,0 +1,26 @@
+array = [0, 0, 0, 0, 0, 0, 0]
+array[0] = 10
+array[1] = 20
+array[2] = 30
+array[3] = 40
+array[4] = 50
+array[5] = 60
+print (array)
+
+
+
+
+
+indexCounter = 0
+value = 10
+while (indexCounter < 7):
+    array[indexCounter] = value
+    indexCounter = indexCounter + 1
+    value = value + 20
+
+print (array)
+
+#output
+
+[10, 20, 30, 40, 50, 60, 0]
+[10, 30, 50, 70, 90, 110, 130]
